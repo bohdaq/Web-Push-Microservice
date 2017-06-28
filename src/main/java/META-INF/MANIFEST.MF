@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Class-Path: websocket-api-9.3.6.v20151106.jar websocket-client-9.3.6.v
+ 20151106.jar bcprov-jdk15on-1.54.jar commons-logging-1.2.jar jetty-we
+ bapp-9.3.6.v20151106.jar httpasyncclient-4.1.3.jar gson-2.8.0.jar slf
+ 4j-simple-1.7.21.jar jose4j-0.5.2.jar httpcore-nio-4.4.6.jar websocke
+ t-server-9.3.6.v20151106.jar jetty-security-9.3.6.v20151106.jar web-p
+ ush-3.0.0.jar jetty-http-9.3.6.v20151106.jar spark-core-2.5.jar jetty
+ -io-9.3.6.v20151106.jar guava-19.0.jar slf4j-api-1.7.13.jar jetty-ser
+ vlet-9.3.6.v20151106.jar commons-codec-1.9.jar fluent-hc-4.5.2.jar ht
+ tpcore-4.4.6.jar jetty-util-9.3.6.v20151106.jar jetty-xml-9.3.6.v2015
+ 1106.jar websocket-servlet-9.3.6.v20151106.jar httpclient-4.5.3.jar w
+ ebsocket-common-9.3.6.v20151106.jar jetty-server-9.3.6.v20151106.jar 
+ javax.servlet-api-3.1.0.jar
+Main-Class: WebPushMicroservice
+
