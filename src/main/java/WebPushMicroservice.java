@@ -41,7 +41,7 @@ public class WebPushMicroservice {
             NotificationPayload payload = new Gson().fromJson(req.body(), NotificationPayload.class);
             logger.info(payload.toString());
 
-            Notification notification = new Notification(payload.endpoint, payload.publicKey, payload.auth, req.body());
+            Notification notification = new Notification(payload.endpoint, payload.publicKey, payload.auth, req.body().getBytes("UTF8"));
 
             HttpResponse response = pushService.send(notification);
             logger.info(response.getStatusLine().getStatusCode() + "");
