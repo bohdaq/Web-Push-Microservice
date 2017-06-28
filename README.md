@@ -2,14 +2,16 @@
 
 To send Web Push Notification you need to send a POST request to /notify with JSON body in following format:
 
-```{
+```
+{
 	"endpoint": "$endpoint",
 	"publicKey": "$p256dhKey",
 	"auth": "$authKey,
 	"title": "$title",
 	"icon": "$iconLink",
 	"message": "$message"
-}```
+}
+```
 
 ```
 POST /notify HTTP/1.1
