@@ -1,6 +1,12 @@
 # Web-Push-Microservice
 
-To send Web Push Notification you need to send a POST request to /notify with JSON body in following format:
+## To run microservice in root folder:
+```
+mvn compile && mvn exec:java
+``` 
+
+
+## To send Web Push Notification you need to send a POST request to /notify with JSON body in following format:
 
 ```
 {
